@@ -79,12 +79,12 @@ jQuery(document).ready(function ($) {
       }
 
       appendMsg("what's you name?");
-    } else if (val.indexOf("i have problem with") > -1) {
-      if (val.indexOf("girlfriend") > -1 || val.indexOf("gf") > -1) {
-        appendMsg("take out your girlfriend, for dinner or movie.");
+    } else if (val.indexOf("what is") > -1) {
+      if (val.indexOf("doer") > -1 || val.indexOf("startup") > -1) {
+        appendMsg("Doer is a company that provides guidance, resources, and marketing support to new entrepreneurs and startups to help them grow their businesses");
         appendMsg("is it helpful? (yes/no)");
-      } else if (val.indexOf("boyfriend") > -1 || val.indexOf("bf") > -1) {
-        appendMsg("bye something for him.");
+      } else if (val.indexOf("seedfund") > -1 {
+        appendMsg("Long story short, Seed funding is the initial capital provided to startups to fuel their early-stage development and growth.");
         appendMsg("is it helpful? (yes/no)");
       } else {
         appendMsg(
@@ -100,7 +100,7 @@ jQuery(document).ready(function ($) {
     } else if (val.indexOf("no") > -1) {
       var nowtime = new Date();
       var nowhoue = nowtime.getHours();
-      appendMsg("it's my bad that i can't able to help you. please try letter");
+      appendMsg("it's my bad that i can't able to help you. please try later");
 
       saybye();
     } else if (
