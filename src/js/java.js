@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
       if (val.indexOf("doer") > -1 || val.indexOf("startup") > -1) {
         appendMsg("Doer is a company that provides guidance, resources, and marketing support to new entrepreneurs and startups to help them grow their businesses");
         appendMsg("is it helpful? (yes/no)");
-      } else if (val.indexOf("seedfund") > -1 {
+      } else if (val.indexOf("seedfund") > -1 || val.indexOf("public funding") > -1) {
         appendMsg("Long story short, Seed funding is the initial capital provided to startups to fuel their early-stage development and growth.");
         appendMsg("is it helpful? (yes/no)");
       } else {
